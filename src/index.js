@@ -1,1 +1,4 @@
-import * as DOM from './DOM';
+import './style.scss';
+import generateBars from './DOM';
+
+generateBars(document.querySelector('#bars'));
